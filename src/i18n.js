@@ -20,24 +20,33 @@ i18n
       en: {
         translation: {
           description: {
-            part1: 'Car Edit <1>src/App.js</1> and save to reload.',
-            part2: 'Learn React'
-          }
-        }
-      },
-      de: {
-        translation: {
-          description: {
-            part1: 'Mashina Ändere <1>src/App.js</1> und speichere um neu zu laden.',
-            part2: 'nihya'
+            part1: 'Name',
+            part2: 'Surname',
+            part3: 'Data',
+            part4: 'Date',
+            part5: 'Gender',
           }
         }
       },
       ua: {
         translation: {
           description: {
-            part1: 'Hyi / 2',
-            part2: 'jaba  -  gaduking'
+            part1: 'Iмя',
+            part2: 'Прiзвище',
+            part3: 'Даннi',
+            part4: 'Дата',
+            part5: 'Стать',
+          }
+        }
+      },
+      rus: {
+        translation: {
+          description: {
+            part1: 'Имя',
+            part2: 'Фамилия',
+            part3: 'Данные',
+            part4: 'Дата',
+            part5: 'Пол',
           }
         }
       }
