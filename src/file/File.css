@@ -1,0 +1,46 @@
+.wrapper {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  height: 400px;
+  width: 300px;
+  background-color: rgb(226, 184, 226);
+}
+.button {
+  display: flex;
+  justify-content: end;
+  padding: 20px;
+  /* margin: 20px; */
+}
+.wrapperTextsInputs {
+  display: flex;
+  justify-content: center;
+}
+.textsInputs {
+  height: 300px;
+  width: 200px;
+  /* display: flex;
+  align-items: center; */
+  background-color: aqua;
+}
+p {
+  display: flex;
+  justify-content: start;
+  margin-left: 20px;
+}
+.DatePol {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.dateInput {
+  display: flex;
+  justify-content: space-between;
+  margin: 7px;
+}
+.dateInput input {
+  width: 70px;
+}
+/* .width {
+  width: 30px;
+} */
