@@ -29,7 +29,15 @@ i18n
         translation: {
           description: {
             part1: 'Mashina Ändere <1>src/App.js</1> und speichere um neu zu laden.',
-            part2: 'Lerne React'
+            part2: 'nihya'
+          }
+        }
+      },
+      ua: {
+        translation: {
+          description: {
+            part1: 'Hyi / 2',
+            part2: 'jaba  -  gaduking'
           }
         }
       }

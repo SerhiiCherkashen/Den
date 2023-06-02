@@ -6,7 +6,8 @@ import { useTranslation, Trans } from 'react-i18next';
 
 const lngs = {
   en: { nativeName: 'English' },
-  de: { nativeName: 'Deutsch' }
+  de: { nativeName: 'Deutsch' },
+  ua: { nativeName: 'Ukraine' },
 };
 
 function App() {
@@ -18,17 +19,21 @@ function App() {
       <File />
       <div>
         {Object.keys(lngs).map((lng) => (
-          <button key={lng} style={{
-            fontWeight: i18n.resolvedLanguage === lng ?
-              'bold' : 'normal'
-          }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
+          <button key={lng}
+            style={{
+              fontWeight: i18n.resolvedLanguage === lng ?
+                'bold' : 'normal'
+            }}
+            type="submit"
+            onClick={() => i18n.changeLanguage(lng)}>
             {lngs[lng].nativeName}
           </button>
         ))}
       </div>
       <p>
         <Trans i18nKey="description.part1">
-          Car Edit <code>src/App.js</code> car and save to reload.
+          {/* <code>src/App.js</code>  */}
+          Car Edit  "HYI" car and save to reload.
           car
         </Trans>
       </p>
