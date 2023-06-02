@@ -11,9 +11,9 @@ import { useTranslation, Trans } from 'react-i18next';
 // };
 
 const languages = {
-  ua: { nativeName: 'Ukraine' },
-  en: { nativeName: 'English' },
-  rus: { nativeName: 'Russian' },
+  ua: { nativeName: 'UA' },
+  en: { nativeName: 'EN' },
+  rus: { nativeName: 'RUS' },
 }
 
 function App() {
@@ -42,26 +42,26 @@ function App() {
             <div className="wrapperTextsInputs" >
               <div className="textsInputs" >
                 <p>
-                  <Trans i18nKey="description.part1">
+                  <Trans i18nKey="description.Name">
                     Name
                   </Trans>
                 </p>
                 <input />
                 <p>
-                  {t('description.part2')}
+                  {t('description.Surname')}
                 </p>
                 <input />
                 <p>
-                  {t('description.part3')}
+                  {t('description.Data')}
                 </p>
 
                 <input />
                 <div className="DatePol" >
                   <span>
-                    {t('description.part4')}
+                    {t('description.Date')}
                   </span>
                   <span>
-                    {t('description.part5')}
+                    {t('description.Gender')}
                   </span>
                 </div>
                 <div className="dateInput" >

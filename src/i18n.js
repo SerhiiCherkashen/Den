@@ -20,33 +20,33 @@ i18n
       en: {
         translation: {
           description: {
-            part1: 'Name',
-            part2: 'Surname',
-            part3: 'Data',
-            part4: 'Date',
-            part5: 'Gender',
+            Name: 'Name',
+            Surname: 'Surname',
+            Data: 'Data',
+            Date: 'Date',
+            Gender: 'Gender',
           }
         }
       },
       ua: {
         translation: {
           description: {
-            part1: 'Iмя',
-            part2: 'Прiзвище',
-            part3: 'Даннi',
-            part4: 'Дата',
-            part5: 'Стать',
+            Name: 'Iмя',
+            Surname: 'Прiзвище',
+            Data: 'Даннi',
+            Date: 'Дата',
+            Gender: 'Стать',
           }
         }
       },
       rus: {
         translation: {
           description: {
-            part1: 'Имя',
-            part2: 'Фамилия',
-            part3: 'Данные',
-            part4: 'Дата',
-            part5: 'Пол',
+            Name: 'Имя',
+            Surname: 'Фамилия',
+            Data: 'Данные',
+            Date: 'Дата',
+            Gender: 'Пол',
           }
         }
       }
